@@ -1,0 +1,5 @@
+public interface IMemberRepository {
+    boolean create(Member member);
+    Member read(String email);
+    List<Member> readAll();
+}
