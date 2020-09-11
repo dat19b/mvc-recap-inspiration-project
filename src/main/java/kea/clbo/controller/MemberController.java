@@ -14,6 +14,9 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class MemberController {
 
+
+    // Comment
+
     IMemberRepository repository;
 
     public MemberController(IMemberRepository repository){
